@@ -3,6 +3,7 @@ body, html {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: white;
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
 
 .container {
