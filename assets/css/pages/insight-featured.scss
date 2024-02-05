@@ -2,8 +2,9 @@
     padding-bottom: 120px;
     .insight-slider{
         .insight-box{
+            margin-right: 20px;
             position: relative;
-            height: 677px;
+            height: 550px;
             width: 666px;
             border-radius: 10px;
             overflow: hidden;
@@ -11,6 +12,7 @@
                 content: "";
                 height: 100%;
                 width: 100%;
+                transition: background .5s;
                 background: rgb(0,0,0);
                 background: linear-gradient(0deg, rgba(0,0,0,0.9024859943977591) 0%, rgba(0,0,0,0.8856792717086834) 45%, rgba(0,0,0,0.5999649859943977) 100%);
                 top: 0;
@@ -43,6 +45,54 @@
                     margin-left: 0;
                 }
             }
+            &:hover{
+                    color: black;
+                &:after{
+                    background: white;
+                }
+                .content{
+                    a{
+                        color: black;
+                    }
+                    ul{
+                        li{
+                            &.tag{
+                                background: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
+}
+
+.progress {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 100px;
+    display: block;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f5f5f57f;
+    background-image: linear-gradient(to right, #ffffff, #ffffff)!important;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.4s ease-in-out;
+  
+  transition: background-size .4s ease-in-out;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
