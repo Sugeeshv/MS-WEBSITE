@@ -65,8 +65,15 @@ jQuery(function () {
 
   
 $('.slider-wrapper').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  dots: true,
+});
+$('.insight-slider').slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 2,
     dots: true,
+    autoplay: true,
   });

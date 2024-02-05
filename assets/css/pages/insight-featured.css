@@ -1,0 +1,47 @@
+.insight-featured {
+  padding-bottom: 120px;
+}
+.insight-featured .insight-slider .insight-box {
+  position: relative;
+  height: 677px;
+  width: 666px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.insight-featured .insight-slider .insight-box::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9024859944) 0%, rgba(0, 0, 0, 0.8856792717) 45%, rgba(0, 0, 0, 0.599964986) 100%);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.insight-featured .insight-slider .insight-box img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.insight-featured .insight-slider .insight-box .content {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  z-index: 1;
+}
+.insight-featured .insight-slider .insight-box .content ul {
+  padding: 0;
+}
+.insight-featured .insight-slider .insight-box .content ul li {
+  list-style: none;
+  float: left;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.insight-featured .insight-slider .insight-box .content ul li.tag {
+  color: black;
+  background: white;
+}
+.insight-featured .insight-slider .insight-box .content a {
+  margin-left: 0;
+}/*# sourceMappingURL=insight-featured.css.map */
