@@ -1,0 +1,42 @@
+.insight-page{
+    .insight-box{
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        height: 460px;
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            transition: background .5s;
+            background: rgb(0,0,0);
+            background: linear-gradient(0deg, rgba(0,0,0,0.9024859943977591) 0%, rgba(0,0,0,0.8856792717086834) 45%, rgba(0,0,0,0.5999649859943977) 100%);
+        }
+        .content{
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            z-index: 1;
+            ul{
+                padding: 0;
+                li{
+                    float: left;
+                    list-style: none;
+                    margin-right: 10px;
+                }
+            }
+            a{
+                padding: 0;
+                margin: 0;
+            }
+        }
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

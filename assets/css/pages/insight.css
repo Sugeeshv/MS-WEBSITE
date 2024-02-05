@@ -1,0 +1,41 @@
+.insight-page .insight-box {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  height: 460px;
+}
+.insight-page .insight-box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: background 0.5s;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9024859944) 0%, rgba(0, 0, 0, 0.8856792717) 45%, rgba(0, 0, 0, 0.599964986) 100%);
+}
+.insight-page .insight-box .content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 1;
+}
+.insight-page .insight-box .content ul {
+  padding: 0;
+}
+.insight-page .insight-box .content ul li {
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+}
+.insight-page .insight-box .content a {
+  padding: 0;
+  margin: 0;
+}
+.insight-page .insight-box img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=insight.css.map */
