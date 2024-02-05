@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  color: #ffffff;
+}
+
+.link__3:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.link__3:after {
+  content: "→";
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+  transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.link__3:hover:before {
+  width: 40%;
+  z-index: -1;
+}
+.link__3:hover:after {
+  color: #ffffff;
+  margin-left: 15px;
+  transform: rotate(0deg);
+}/*# sourceMappingURL=buttons.css.map */

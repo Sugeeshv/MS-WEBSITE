@@ -1,0 +1,28 @@
+
+.banner-section{
+    padding-top: 0px;
+}
+.banner-slider{
+    padding: 20px 0px;
+}
+.slick-slide{
+    opacity: .2;
+    transition: opacity .2s;
+}
+.slick-slide.slick-current.slick-active{
+    opacity: 1;
+    transition: opacity .2s;
+}
+.slider-for{
+    .slick-track{
+        .slider-banner-image{
+            p{
+                width: 350px;
+                margin-top: 200px;
+            }
+        }
+    }
+}
+// .slick-arrow{
+//     display: none!important;
+// }

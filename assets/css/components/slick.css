@@ -1,0 +1,206 @@
+/*USE CSS for Slider*/
+.vehicle-detail-banner .car-slider-desc {
+  margin: 0 auto;
+}
+
+.banner-slider .slider.slider-for {
+  max-width: 40%;
+  padding-right: 35px;
+}
+
+.banner-slider .slider.slider-nav {
+  max-width: 60%;
+}
+
+.banner-slider .slider.slider-for,
+.banner-slider .slider.slider-nav {
+  width: 100%;
+  float: left;
+}
+
+.banner-slider .slider.slider-nav {
+  overflow: hidden;
+}
+
+.banner-slider .slider.slider-nav {
+  padding: 20px 0 0;
+}
+
+.slider-nav .slick-slide.thumbnail-image .thumbImg {
+  height: 110px;
+  margin: 0 auto;
+}
+
+.slider-banner-image img,
+.slider-nav .slick-slide.thumbnail-image .thumbImg img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slick-vertical .slick-slide:active,
+.slick-vertical .slick-slide:focus,
+.slick-arrow:hover,
+.slick-arrow:focus {
+  border: 0;
+  outline: 0;
+}
+
+.slider-nav .slick-slide.slick-current span {
+  color: #196DB6;
+}
+
+.slider-nav .slick-slide {
+  text-align: center;
+}
+
+.slider-nav .slick-slide span {
+  font-size: 14px;
+  display: block;
+  padding: 5px 0 15px;
+}
+
+.slick-arrow {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.slick-prev {
+  top: 0;
+}
+
+.slick-next {
+  bottom: 0;
+  background-color: #fff;
+}
+
+/*End USE CSS for Slider*/
+.expertise-page {
+  position: relative;
+}
+.expertise-page .slick-dots {
+  list-style: none;
+  position: fixed;
+  right: 50px;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+}
+.expertise-page .slick-dots li {
+  list-style: none;
+  padding-bottom: 10px;
+  height: 50px;
+  opacity: 0.2;
+}
+.expertise-page .slick-dots li.slick-active {
+  opacity: 1;
+}
+.expertise-page .slick-dots li button {
+  color: white;
+  background: #ffffff;
+  height: 40px;
+  width: 1px;
+  border-radius: 10px;
+}
+.expertise-page .slick-dots li button::before {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .banner-slider .slider.slider-for,
+  .banner-slider .slider.slider-nav {
+    max-width: 100%;
+    float: none;
+  }
+  .banner-slider .slider.slider-for {
+    padding-right: 0;
+  }
+  .banner-slider .slider.slider-nav {
+    height: auto;
+  }
+  .slider-banner-image {
+    height: 500px;
+  }
+  .slider.slider-nav.thumb-image {
+    padding: 10px 30px 0;
+  }
+  .slider-nav .slick-slide span {
+    padding: 5px 0;
+  }
+  .slick-arrow {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    bottom: 0;
+    transform: translateY(-50%) rotate(-90deg);
+  }
+  .slick-prev {
+    left: 0;
+    right: unset;
+  }
+  .slick-next {
+    left: unset;
+    right: 0;
+    background-color: transparent;
+  }
+  .vehicle-detail-banner .car-slider-desc {
+    max-width: 340px;
+  }
+  .bid-tag {
+    padding: 10px 0 15px;
+  }
+  .slider.slider-nav.thumb-image {
+    white-space: nowrap;
+  }
+  .thumbnail-image.slick-slide {
+    padding: 0px 5px;
+    min-width: 75px;
+    display: inline-block;
+    float: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .slider-banner-image {
+    height: 400px;
+  }
+  .slider.slider-nav.thumb-image {
+    padding: 0px 20px 0;
+    margin: 10px 0px 0;
+  }
+  .slider-nav .slick-slide.thumbnail-image .thumbImg {
+    max-width: 140px;
+    height: 80px;
+  }
+  .slick-prev.slick-arrow {
+    background-position: center 10px;
+  }
+  .slick-next.slick-arrow {
+    background-position: center 10px, center;
+  }
+  .slider-nav .slick-slide span {
+    font-size: 12px;
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 580px) {
+  .slider-banner-image {
+    height: 340px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slider-banner-image {
+    height: 280px;
+  }
+}/*# sourceMappingURL=slick.css.map */

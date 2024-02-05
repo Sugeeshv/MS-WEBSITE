@@ -1,0 +1,511 @@
+body, html {
+  background: #000;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.page-container {
+  max-width: 1340px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+}
+
+.white-tx {
+  color: white;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.mt-80 {
+  margin-top: 80px !important;
+}
+
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+.mt-150 {
+  margin-top: 150px !important;
+}
+
+.mt-120 {
+  margin-top: 120px !important;
+}
+
+.mt-200 {
+  margin-top: 200px !important;
+}
+
+.ml-0 {
+  margin-left: 0px !important;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.ml-30 {
+  margin-left: 30px !important;
+}
+
+.ml-40 {
+  margin-left: 40px !important;
+}
+
+.ml-50 {
+  margin-left: 50px !important;
+}
+
+.ml-80 {
+  margin-left: 80px !important;
+}
+
+.ml-100 {
+  margin-left: 100px !important;
+}
+
+.ml-150 {
+  margin-left: 150px !important;
+}
+
+.ml-120 {
+  margin-left: 120px !important;
+}
+
+.ml-200 {
+  margin-left: 200px !important;
+}
+
+.mr-10 {
+  margin-top: 10px !important;
+}
+
+.mr-20 {
+  margin-top: 20px !important;
+}
+
+.mr-30 {
+  margin-top: 30px !important;
+}
+
+.mr-40 {
+  margin-top: 40px !important;
+}
+
+.mr-50 {
+  margin-top: 50px !important;
+}
+
+.mr-80 {
+  margin-top: 80px !important;
+}
+
+.mr-100 {
+  margin-top: 100px !important;
+}
+
+.mr-150 {
+  margin-top: 150px !important;
+}
+
+.mr-120 {
+  margin-top: 120px !important;
+}
+
+.mr-200 {
+  margin-top: 200px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+
+.mb-150 {
+  margin-bottom: 150px !important;
+}
+
+.mb-120 {
+  margin-bottom: 120px !important;
+}
+
+.mb-200 {
+  margin-bottom: 200px !important;
+}
+
+.pt-10 {
+  padding-top: 10px !important;
+}
+
+.pt-20 {
+  padding-top: 20px !important;
+}
+
+.pt-30 {
+  padding-top: 30px !important;
+}
+
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+.pt-50 {
+  padding-top: 50px !important;
+}
+
+.pt-80 {
+  padding-top: 80px !important;
+}
+
+.pt-100 {
+  padding-top: 100px !important;
+}
+
+.pt-150 {
+  padding-top: 150px !important;
+}
+
+.pt-120 {
+  padding-top: 120px !important;
+}
+
+.pt-200 {
+  padding-top: 200px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+
+.pb-40 {
+  padding-bottom: 40px !important;
+}
+
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
+.pb-80 {
+  padding-bottom: 80px !important;
+}
+
+.pb-100 {
+  padding-bottom: 100px !important;
+}
+
+.pb-150 {
+  padding-bottom: 150px !important;
+}
+
+.pb-120 {
+  padding-bottom: 120px !important;
+}
+
+.pb-200 {
+  padding-bottom: 200px !important;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+.pl-20 {
+  padding-left: 20px !important;
+}
+
+.pl-30 {
+  padding-left: 30px !important;
+}
+
+.pl-40 {
+  padding-left: 40px !important;
+}
+
+.pl-50 {
+  padding-left: 50px !important;
+}
+
+.pl-80 {
+  padding-left: 80px !important;
+}
+
+.pl-100 {
+  padding-left: 100px !important;
+}
+
+.pl-150 {
+  padding-left: 150px !important;
+}
+
+.pl-120 {
+  padding-left: 120px !important;
+}
+
+.pl-200 {
+  padding-left: 200px !important;
+}
+
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+.pr-20 {
+  padding-right: 20px !important;
+}
+
+.pr-30 {
+  padding-right: 30px !important;
+}
+
+.pr-40 {
+  padding-right: 40px !important;
+}
+
+.pr-50 {
+  padding-right: 50px !important;
+}
+
+.pr-80 {
+  padding-right: 80px !important;
+}
+
+.pr-100 {
+  padding-right: 100px !important;
+}
+
+.pr-150 {
+  padding-right: 150px !important;
+}
+
+.pr-120 {
+  padding-right: 120px !important;
+}
+
+.pr-200 {
+  padding-right: 200px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.fs-46 {
+  font-size: 46px !important;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, white, black);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.sub-title {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.wrap-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  z-index: 1;
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  -o-border-image: linear-gradient(rgba(40, 93, 186, 0), #285DBA, rgba(40, 93, 186, 0)) 30;
+     border-image: linear-gradient(rgba(40, 93, 186, 0), #285DBA, rgba(40, 93, 186, 0)) 30;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white !important;
+  margin-right: 20px;
+}
+
+.mini-preview-anchor:hover .mini-preview-wrapper {
+  z-index: 2;
+  opacity: 1;
+  margin-top: -80px !important;
+  transition: opacity 0.3s, margin-top 0.3s;
+}
+
+.mini-preview-wrapper {
+  width: 150px !important;
+  height: 100px !important;
+  top: 8px;
+  left: -128.8px;
+}
+
+.floating-banner {
+  position: fixed;
+  z-index: 1000;
+  width: 210px;
+  top: 222px;
+  left: 625px;
+  position: fixed;
+  transform: translateX(-50%);
+  z-index: 0;
+  opacity: 0.3;
+}
+
+/* Add your styles for the 'floating-banner' class and other classes here */
+.floating-banner {
+  transition: transform 0.3s ease-out, width 0.3s ease-out, height 0.3s ease-out;
+}
+
+/* Additional styles for the 'animate' class */
+.animate {
+  /* Add your animation styles here */
+}
+
+/* Additional styles for the 'visible' class */
+.visible {
+  /* Add your styles for the 'visible' class here */
+}/*# sourceMappingURL=common.css.map */

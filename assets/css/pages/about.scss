@@ -1,0 +1,29 @@
+.about-page{
+    color: #ffffffaa!important;
+    position: relative;
+    .about-floating-image{
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        z-index: -0;
+    }
+    h3,h4,p{
+        z-index: 10;
+        display: block;
+        position: relative;
+    }
+    p{
+        letter-spacing: .1px;
+        line-height: 2;
+    }
+    .about-ms{
+        padding: 80px;
+        border-radius: 30px;
+        border: solid 3px rgb(90, 90, 90);
+        background: rgb(2,0,36);
+        background: linear-gradient(336deg, #2b2929 0%, rgba(0,0,0,0.5271358543417367) 100%);
+        img{
+            width: 150px;
+        }
+    }
+}
