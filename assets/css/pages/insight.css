@@ -21,6 +21,10 @@
   left: 20px;
   color: white;
   z-index: 1;
+  margin: 20px;
+}
+.insight-page .insight-box .content p {
+  display: none;
 }
 .insight-page .insight-box .content ul {
   padding: 0;
@@ -29,6 +33,12 @@
   float: left;
   list-style: none;
   margin-right: 10px;
+  padding: 5px 20px;
+}
+.insight-page .insight-box .content ul li.tag {
+  background: white;
+  color: black;
+  border-radius: 10px;
 }
 .insight-page .insight-box .content a {
   padding: 0;
