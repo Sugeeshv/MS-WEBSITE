@@ -4,6 +4,30 @@
   border-radius: 10px;
   height: 460px;
 }
+.insight-page .insight-box:hover .content {
+  top: -600px;
+  animation-name: moveup;
+  animation-duration: 1s;
+}
+.insight-page .insight-box:hover .discription {
+  height: 100%;
+  animation-name: displayb;
+  animation-duration: 1s;
+  bottom: 0px;
+  position: absolute;
+  z-index: 1;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .insight-page .insight-box::after {
   content: "";
   position: absolute;
@@ -16,15 +40,26 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9024859944) 0%, rgba(0, 0, 0, 0.8856792717) 45%, rgba(0, 0, 0, 0.599964986) 100%);
 }
 .insight-page .insight-box .content {
+  height: 100%;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 0px;
+  left: 0px;
   color: white;
   z-index: 1;
-  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-.insight-page .insight-box .content p {
+.insight-page .insight-box .content .discription {
   display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.insight-page .insight-box .content .discription .paragraph {
+  height: 200px;
+  overflow: hidden;
 }
 .insight-page .insight-box .content ul {
   padding: 0;
@@ -48,4 +83,57 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@keyframes moveup {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -600px;
+  }
+}
+@keyframes displayb {
+  0% {
+    opacity: 0;
+    bottom: -600px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  50% {
+    opacity: 0.6;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(122, 122, 122, 0.4823529412);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }/*# sourceMappingURL=insight.css.map */

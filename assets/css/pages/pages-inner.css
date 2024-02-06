@@ -1,0 +1,93 @@
+.pages-inner .pagebanner {
+  position: relative;
+}
+.pages-inner .pagebanner img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.pages-inner .pagebanner::after {
+  content: "";
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.68) 30%, rgba(0, 0, 0, 0.58) 45%, rgba(0, 0, 0, 0.52) 100%);
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pages-inner .pagebanner.video {
+  position: relative;
+}
+.pages-inner .pagebanner.video .video-fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+.pages-inner .pagebanner.video .video-fa .fa {
+  font-size: 80px;
+}
+.pages-inner .pagebanner.video img {
+  height: 500px;
+}
+.pages-inner .pagebanner.video::after {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.68) 30%, rgba(0, 0, 0, 0.58) 45%, rgba(0, 0, 0, 0.52) 100%);
+  height: 500px;
+}
+.pages-inner .page {
+  padding: 0px 150px;
+}
+.pages-inner .page .tag {
+  list-style: none;
+  float: left;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+}
+.pages-inner .page .page-footer .next, .pages-inner .page .page-footer .prev {
+  border-bottom: solid 2px gray;
+}
+.pages-inner .page .page-footer .next a, .pages-inner .page .page-footer .prev a {
+  color: gray;
+}
+.pages-inner .page .page-footer .prev {
+  text-align: right;
+}
+.pages-inner .page .page-footer .share {
+  background: #F0F0F0;
+  display: inline-block;
+  padding: 0;
+  border-radius: 40px;
+  color: black;
+  padding: 10px 10px;
+}
+.pages-inner .page .page-footer .share li {
+  list-style: none;
+  float: left;
+  color: black;
+  background: white;
+  padding: 14px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: solid 1px rgb(255, 255, 255);
+}
+.pages-inner .page .page-footer .share li:hover {
+  border: solid 1px black;
+}
+.pages-inner .page .page-footer .share li a {
+  color: black;
+}
+.pages-inner .page .page-footer .share-text {
+  color: gray;
+}/*# sourceMappingURL=pages-inner.css.map */

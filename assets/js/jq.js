@@ -64,3 +64,15 @@ slick_2.on("beforeChange", function(index) {
 slick_2.on("wheel", function(e) {
   slick_handle_wheel_event_debounced(e.originalEvent, slick_2, slick_2_is_animating);  
 });
+  // JavaScript function to toggle the active class on the dropdown
+  function toggleDropdown() {
+    var dropdown = document.querySelector('.dropdown');
+    dropdown.classList.toggle('active');
+}
+
+// light box
+$(document).ready(function() {
+  $('.popup-youtube').magnificPopup({
+    type: 'iframe'
+  });
+});
