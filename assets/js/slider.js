@@ -123,24 +123,3 @@ jQuery(function () {
 
 
   
-    
-    // Initialize Slick slider
-    $(document).ready(function(){
-      $('.vertical-slider').slick({
-        slidesToShow: 1, // Show one card at a time
-        slidesToScroll: 1,
-        vertical: true,
-        swipeToSlide: true,
-        slidesToScroll: 1,
-        arrows: false,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              vertical: false,
-              verticalSwiping: false,
-            }
-          }
-        ]
-      });
-    });

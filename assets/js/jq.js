@@ -75,3 +75,5 @@ slick_2.on("wheel", function(e) {
 $('audio').mediaelementplayer({
 	features: ['playpause','progress','current','tracks','fullscreen']
 });
+
+// scroll tracking 

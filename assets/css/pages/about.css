@@ -30,14 +30,15 @@
 .about-page .about-ms img {
   width: 150px;
 }
-.about-page .about-ms:nth-child(2) {
-  width: 96%;
-  height: 100%;
-  border: solid 0px;
-  position: absolute;
-  top: -20px;
-  opacity: 3;
+
+.slider-item {
+  position: relative;
 }
-.about-page .about-ms:nth-child(2) p, .about-page .about-ms:nth-child(2) a, .about-page .about-ms:nth-child(2) img {
-  display: none;
+.slider-item:nth-child(1) {
+  position: fixed;
+  top: 0;
+}
+.slider-item:nth-child(2) {
+  position: relative;
+  margin-top: 500px;
 }/*# sourceMappingURL=about.css.map */

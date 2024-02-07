@@ -28,16 +28,16 @@
         img{
             width: 150px;
         }
-        &:nth-child(2){
-            width: 96%;
-            height: 100%;
-            border: solid 0px;
-            position: absolute;
-            top: -20px;
-            opacity: 3;
-            p,a,img{
-                display: none;
-            }
-        }
+    }
+}
+.slider-item{
+    position: relative;
+    &:nth-child(1){
+        position: fixed;
+        top: 0;
+    }
+    &:nth-child(2){
+        position: relative;
+        margin-top: 500px;
     }
 }
