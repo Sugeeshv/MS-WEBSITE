@@ -1,0 +1,35 @@
+.newsletter-page .newsletter-box {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.newsletter-page .newsletter-box img {
+  height: 334px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.newsletter-page .newsletter-box .content {
+  padding: 40px 10px;
+  color: black;
+}
+.newsletter-page .newsletter-box .content .paragraph {
+  overflow-y: visible;
+}
+.newsletter-page .newsletter-box .content a {
+  color: #000;
+}
+.newsletter-page .newsletter-box .content ul {
+  padding: 0;
+}
+.newsletter-page .newsletter-box .content ul li {
+  margin-right: 10px;
+  list-style: none;
+  float: left;
+  padding: 5px 10px;
+}
+.newsletter-page .newsletter-box .content ul li.tag {
+  border-radius: 10px;
+  background: #000;
+  color: white;
+}/*# sourceMappingURL=newsletter.css.map */
