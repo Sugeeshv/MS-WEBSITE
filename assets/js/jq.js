@@ -70,9 +70,3 @@ slick_2.on("wheel", function(e) {
     dropdown.classList.toggle('active');
 }
 
-// light box
-$(document).ready(function() {
-  $('.popup-youtube').magnificPopup({
-    type: 'iframe'
-  });
-});
