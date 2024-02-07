@@ -1,9 +1,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .events-box .content {
+  .podcast-wrapper .podcast-box img {
+    height: 200px;
+  }
+  .events-wrapper {
+    overflow: hidden;
+  }
+  .events-wrapper .events-box .content {
     position: relative;
   }
-  .events-box::before {
+  .events-wrapper .events-box::before {
     bottom: 260px;
   }
   .insight-featured {
@@ -68,10 +74,13 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .events-box .content {
+  .events-wrapper {
+    overflow: hidden;
+  }
+  .events-wrapper .events-box .content {
     position: relative;
   }
-  .events-box::before {
+  .events-wrapper .events-box::before {
     bottom: 260px;
   }
 }

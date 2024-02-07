@@ -1,7 +1,13 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     // podcast
-    .events-box {
+    .podcast-wrapper .podcast-box img{
+        height: 200px;
+    }
+    // events
+    .events-wrapper{
+        overflow: hidden;
+        .events-box {
         .content{
             position: relative;
         }
@@ -9,6 +15,7 @@
             bottom: 260px;
         }
     }
+}
     // insights
     .insight-featured {
         padding-bottom: 50px;
@@ -82,14 +89,17 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     // podcast
-    .events-box {
-        .content{
-            position: relative;
-        }
-        &::before{
-            bottom: 260px;
+    .events-wrapper{
+        overflow: hidden;
+        .events-box {
+            .content{
+                position: relative;
+            }
+            &::before{
+                bottom: 260px;
         }
     }
+}
     
 }
 

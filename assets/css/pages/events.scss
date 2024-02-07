@@ -1,67 +1,68 @@
-
-.events-box{
-    border-radius: 10px;
-    overflow: hidden;
-        margin-right: 20px;
-        position: relative;
+.events-wrapper{
+    .events-box{
         border-radius: 10px;
         overflow: hidden;
-        img{
-            height: 100%;
-            object-fit: cover;
-        }
-            &::before{
-                content: "";
-                background: rgb(255,255,255);
-                background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-                left: 0;
-                bottom: 220px;
+            // margin-right: 20px;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+                &::before{
+                    content: "";
+                    background: rgb(255,255,255);
+                    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+                    left: 0;
+                    bottom: 220px;
+                    position: absolute;
+                    width: 100%;
+                    height: 200px;
+                }
+            .content{
                 position: absolute;
-                width: 100%;
-                height: 200px;
-            }
-        .content{
-            position: absolute;
-            padding: 20px;
-            display: block;
-            background: white;
-            color:black!important;
-            bottom: 00px;
-            left: 0px;
-            z-index: 1;
-            .location{
-                .fa{
-                    margin-top: 3px;
-                    margin-right: 10px;
+                padding: 20px;
+                display: block;
+                background: white;
+                color:black!important;
+                bottom: 00px;
+                left: 0px;
+                z-index: 1;
+                .location{
+                    .fa{
+                        margin-top: 3px;
+                        margin-right: 10px;
+                    }
+                    p{
+                        padding: 0;
+                        margin: 0;
+                    }
                 }
-                p{
+                ul{
                     padding: 0;
-                    margin: 0;
+                    display: flex;
+                    li{
+                        list-style: none;
+                        padding: 5px 10px;
+                        border-radius: 10px;
+                        &.tag{
+                            color: white;
+                            background: black;
+                        }
+                    }
                 }
-            }
-            ul{
-                padding: 0;
-                display: flex;
-                li{
-                    list-style: none;
-                    padding: 5px 10px;
-                    border-radius: 10px;
-                    &.tag{
-                        color: white;
-                        background: black;
+                a{
+                    display: flex;
+                    margin-left: 0;
+                    color:black!important;
+                    .link{
+                        width: 30px;
+                        height: 15px;
+                        margin-top: 6px;
                     }
                 }
             }
-            a{
-                display: flex;
-                margin-left: 0;
-                color:black!important;
-                .link{
-                    width: 30px;
-                    height: 15px;
-                    margin-top: 6px;
-                }
-            }
-        }
-    
+        
+    }
 }
