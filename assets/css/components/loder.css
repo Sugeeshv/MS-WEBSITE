@@ -1,1 +1,7 @@
-/*# sourceMappingURL=loder.css.map */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}/*# sourceMappingURL=loder.css.map */

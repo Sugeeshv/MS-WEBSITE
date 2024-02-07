@@ -83,5 +83,39 @@ jQuery(function () {
       slidesToScroll: 1,
       speed: 400,
       arrows: false,
+      responsive: [
+      {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            vertical: false,
+          }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          vertical: false,
+        }
+      },
+      {
+        breakpoint: 580,
+        settings: {
+          vertical: false,
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 380,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          vertical: false,
+          slidesToShow: 2,
+        }
+      }
+      ]
     });  
   });

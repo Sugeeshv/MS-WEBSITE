@@ -1,7 +1,22 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .insight-featured {
+    padding-bottom: 50px;
+  }
+  .pt-120 {
+    padding-top: 50px !important;
+  }
   .mt-150 {
     margin-top: 50px !important;
+  }
+  .page-top {
+    position: relative;
+  }
+  .pages-inner .page {
+    padding: 10px;
+  }
+  .pages-inner .page img {
+    width: 100%;
   }
   .about {
     height: 1350px;
@@ -35,8 +50,34 @@
   .about .about-content h3 {
     font-size: 20px;
   }
+  .insight-banner-display {
+    margin-bottom: 50px;
+    height: 400px;
+  }
+  .insight-banner-display img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .about .about-image img {
+    bottom: auto;
+    top: 0;
+    left: -50px;
+  }
+  .about .about-content {
+    padding: 0;
+    margin-left: 0;
+  }
+  .insight-banner-display {
+    margin-bottom: 50px;
+    height: auto;
+  }
+  .insight-banner-display img {
+    height: auto;
+  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=responsive.css.map */

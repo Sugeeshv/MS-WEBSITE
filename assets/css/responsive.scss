@@ -1,7 +1,23 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    // insights
+    .insight-featured {
+        padding-bottom: 50px;
+    }
+    .pt-120 {
+        padding-top: 50px !important;
+    }
     .mt-150{
         margin-top: 50px!important;
+    }
+    .page-top{
+        position: relative;
+    }
+    .pages-inner .page{
+        padding: 10px;
+        img{
+            width: 100% ;
+        }
     }
  .about {
     height: 1350px;
@@ -38,24 +54,52 @@
         }
      }
  }
+//  media page
+
+    .insight-banner-display {
+            margin-bottom:50px;
+            height: 400px;
+        img{
+            object-fit: cover;
+        }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+// @media only screen and (max-width: 600px) {
     
-}
+// }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about {
+        .about-image {
+            img{
+                bottom: auto;
+                top: 0;
+                left: -50px;
+            }
+        }
+        .about-content{
+            padding: 0;
+            margin-left: 0;
+        }
+    }
+    .insight-banner-display {
+        margin-bottom:50px;
+            height: auto;
+        img{
+            height: auto;
+        }
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     
 }
