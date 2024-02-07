@@ -17,6 +17,9 @@
   letter-spacing: 0.1px;
   line-height: 2;
 }
+.about-page .vertical-slider {
+  position: relative;
+}
 .about-page .about-ms {
   padding: 80px;
   border-radius: 30px;
@@ -26,4 +29,15 @@
 }
 .about-page .about-ms img {
   width: 150px;
+}
+.about-page .about-ms:nth-child(2) {
+  width: 96%;
+  height: 100%;
+  border: solid 0px;
+  position: absolute;
+  top: -20px;
+  opacity: 3;
+}
+.about-page .about-ms:nth-child(2) p, .about-page .about-ms:nth-child(2) a, .about-page .about-ms:nth-child(2) img {
+  display: none;
 }/*# sourceMappingURL=about.css.map */

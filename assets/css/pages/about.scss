@@ -16,6 +16,9 @@
         letter-spacing: .1px;
         line-height: 2;
     }
+    .vertical-slider{
+        position: relative;
+    }
     .about-ms{
         padding: 80px;
         border-radius: 30px;
@@ -24,6 +27,17 @@
         background: linear-gradient(336deg, #2b2929 0%, rgba(0,0,0,0.5271358543417367) 100%);
         img{
             width: 150px;
+        }
+        &:nth-child(2){
+            width: 96%;
+            height: 100%;
+            border: solid 0px;
+            position: absolute;
+            top: -20px;
+            opacity: 3;
+            p,a,img{
+                display: none;
+            }
         }
     }
 }

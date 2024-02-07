@@ -1,3 +1,7 @@
+.media-page {
+  overflow: hidden;
+}
+
 .insight-banner-display {
   margin-bottom: 140px;
   height: 760px;
