@@ -3,7 +3,7 @@
     z-index: 10;
 }
 .about{
-    height: 800px;
+    height: 870px;
     overflow: hidden;
     .about-image{
         z-index: 0;
@@ -12,7 +12,7 @@
             position: absolute;
             width: 140%;
             left: -110px;
-            bottom: -50px;
+            bottom: -150px;
             
         }
         &::after{
