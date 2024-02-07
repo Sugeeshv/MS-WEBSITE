@@ -31,4 +31,15 @@
 .link__3:hover:after {
   color: #ffffff;
   transform: rotate(0deg);
+}
+
+.backdrope-btn {
+  background: #2c2c2c;
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.backdrope-btn img {
+  height: auto;
+  width: 20px;
 }/*# sourceMappingURL=buttons.css.map */

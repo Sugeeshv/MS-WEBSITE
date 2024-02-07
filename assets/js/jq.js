@@ -70,3 +70,8 @@ slick_2.on("wheel", function(e) {
     dropdown.classList.toggle('active');
 }
 
+// audio
+
+$('audio').mediaelementplayer({
+	features: ['playpause','progress','current','tracks','fullscreen']
+});
