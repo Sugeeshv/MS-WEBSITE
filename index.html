@@ -45,15 +45,13 @@
                     </div>
                     <div class="offset-1 col-md-5 about-content">
                         <h2 class="white-tx fw-400 mt-40 slide"  data-aos="fade-left" data-aos-duration="500">Mohammed <span class="ml-10"> Shafeek</span></h2>
-                        <small class="white-tx fw-400" data-aos="fade-left" data-aos-duration="800">A Journey in Business and Beyond <br>
+                        <small class="fs-15 white-tx fw-400" data-aos="fade-left" data-aos-duration="800">A Journey in Business and Beyond <br>
                             Founder and  Group CEO at  <span>MS</span>  &  Kitaab.ai</small>
-                            <br>
-                            <br>
                             <img src="./assets/images/icons/quote.svg" alt="" data-aos="fade-left" data-aos-duration="1000">
-                            <h3 class="mt-2 white-tx fw-300 mt-10" data-aos="fade-left" data-aos-duration="1200">Guiding Businesses to make <br>
+                            <h3 class="fs-25 mt-2 white-tx fw-300 mt-10" data-aos="fade-left" data-aos-duration="1200">Guiding Businesses to make <br>
                                 a meaningful Impact. <br> Committed to nurture minds</h3>
-                            <a class="mt-150 link link__3" href="#" data-aos="fade-right" data-aos-duration="1400">Read more about </a>
-                            <ul class="mt-30">
+                            <a class="mt-80 link link__3" href="#" data-aos="fade-right" data-aos-duration="1400">Read more about </a>
+                            <ul class="mt-10">
                                 <li data-aos="fade-down" data-aos-duration="400">
                                     <p>Connect with me</p>
                                 </li>
@@ -129,6 +127,7 @@
     <script src="./assets/js/parallax.js"></script>
     <!-- mini previewer -->
     <script src="./assets/vendoor/mini-preview-master/jquery.minipreview.js"></script>
+    
     <script>
     //    mini
     
@@ -143,17 +142,6 @@
             let mouseX = 0;
             let mouseY = 0;
 
-            gsap.to({}, 0.016, {
-              repeat: -1,
-              onRepeat: function(){
-                gsap.set(cursor, {
-                  css: {
-                    left: mouseX,
-                    top: mouseY,
-                  }
-                })
-              }
-            });
 
             window.addEventListener('mousemove', (e)=> {
               mouseX = e.clientX;
@@ -174,6 +162,19 @@
         cursor.classList.remove('grow-small');
   });
 })
+// time uot
+
+    // Function to scroll down after a delay
+    function scrollDown() {
+      $('html, body').animate({
+        scrollTop: $(window).scrollTop() + $(window).height()
+      }, 2000); // You can adjust the animation duration as needed
+    }
+
+    // Use setTimeout to delay the scroll function
+    $(document).ready(function() {
+      setTimeout(scrollDown, 4000); // 2000 milliseconds (2 seconds) delay
+    });
     </script>
   
 </html>
