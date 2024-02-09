@@ -30,14 +30,14 @@
         }
     }
 }
-.slider-item{
-    position: relative;
-    &:nth-child(1){
-        position: fixed;
-        top: 0;
-    }
-    &:nth-child(2){
-        position: relative;
-        margin-top: 500px;
-    }
-}
+    // .slider-item{
+    //     position: relative;
+    //     &:nth-child(1){
+    //         position: fixed;
+    //         top: 0;
+    //     }
+    //     &:nth-child(2){
+    //         position: relative;
+    //         margin-top: 500px;
+    //     }
+    // }

@@ -42,4 +42,24 @@
 .backdrope-btn a img {
   height: auto;
   width: 20px;
+}
+
+.btn-primary {
+  background: #000;
+  border: solid 1px gray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn-primary-black {
+  background: black;
+  border: solid 1px rgba(255, 255, 255, 0.231372549);
+  border-radius: 40px;
+  color: white;
+  font-style: 14px;
+  padding: 10px 20px;
+}
+.btn-primary-black:hover {
+  color: #000;
+  background: white;
 }/*# sourceMappingURL=buttons.css.map */

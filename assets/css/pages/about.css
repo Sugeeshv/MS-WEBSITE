@@ -29,16 +29,4 @@
 }
 .about-page .about-ms img {
   width: 150px;
-}
-
-.slider-item {
-  position: relative;
-}
-.slider-item:nth-child(1) {
-  position: fixed;
-  top: 0;
-}
-.slider-item:nth-child(2) {
-  position: relative;
-  margin-top: 500px;
 }/*# sourceMappingURL=about.css.map */

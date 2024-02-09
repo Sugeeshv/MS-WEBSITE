@@ -1,3 +1,6 @@
+.connect-page {
+  padding-bottom: 150px;
+}
 .connect-page .left {
   position: relative;
   color: black;
@@ -5,15 +8,94 @@
 .connect-page .left .left-box {
   z-index: 10;
   position: relative;
-  margin-right: 50px;
+  margin-right: 150px;
+}
+.connect-page .left .left-box p {
+  line-height: 30px;
+}
+.connect-page .left .left-box .connect-form input, .connect-page .left .left-box .connect-form textarea, .connect-page .left .left-box .connect-form select {
+  border: solid 1px gray;
+  padding: 15px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+.connect-page .left .left-box .connect-form input::-moz-placeholder, .connect-page .left .left-box .connect-form textarea::-moz-placeholder, .connect-page .left .left-box .connect-form select::-moz-placeholder {
+  color: var(--bs-body-color) !important;
+}
+.connect-page .left .left-box .connect-form input::placeholder, .connect-page .left .left-box .connect-form textarea::placeholder, .connect-page .left .left-box .connect-form select::placeholder {
+  color: var(--bs-body-color) !important;
+}
+.connect-page .left .left-box .connect-form input:focus, .connect-page .left .left-box .connect-form textarea:focus, .connect-page .left .left-box .connect-form select:focus {
+  box-shadow: none;
+}
+.connect-page .left .left-box .connect-form .connect-combo-input {
+  display: flex;
+}
+.connect-page .left .left-box .connect-form .connect-combo-input input:nth-child(1) {
+  border-radius: 10px 0px 0px 10px;
+  border-right: solid 0px;
+}
+.connect-page .left .left-box .connect-form .connect-combo-input input:nth-child(2) {
+  border-radius: 0px 10px 10px 0px;
+}
+.connect-page .left .left-box a {
+  color: black;
 }
 .connect-page .left::after {
   content: "";
-  height: 1500px;
+  height: 900px;
   width: 1500px;
   position: absolute;
   right: 0;
-  top: -50px;
+  bottom: -50px;
   background: white;
   z-index: 0;
+}
+.connect-page .right .right-box {
+  color: white;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+.connect-page .right .right-box .opacity-01 {
+  opacity: 0.4;
+}
+.connect-page .right .right-box .connect-form {
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.231372549);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.connect-page .right .right-box .connect-form input {
+  background: transparent;
+  border: solid 0px;
+  padding: 15px 0px;
+  width: 70%;
+  color: white;
+}
+.connect-page .right .right-box .connect-form input:focus {
+  box-shadow: none;
+}
+.connect-page .right .right-box .connect-form input::-moz-placeholder {
+  color: gray;
+}
+.connect-page .right .right-box .connect-form input::placeholder {
+  color: gray;
+}
+.connect-page .right .right-box .connect-form .btn {
+  width: 30%;
+}
+.connect-page .right .right-box ul {
+  text-align: right;
+  right: 0;
+}
+.connect-page .right .right-box ul li {
+  list-style: none;
+  float: left;
+}
+.connect-page .right .right-box ul li.size {
+  width: 40px;
+  align-items: center;
+  text-align: center;
 }/*# sourceMappingURL=connect.css.map */

@@ -1,21 +1,105 @@
 .connect-page{
+    padding-bottom: 150px;
     .left{
         position: relative;
         color: black;
         .left-box{
             z-index: 10;
             position: relative;
-        margin-right: 50px;
-    }
+            margin-right: 150px;
+            
+        p{
+            line-height: 30px;
+        }
+        .connect-form{
+            input,textarea, select{
+                border: solid 1px gray;
+                padding: 15px 10px;
+                border-radius: 10px 10px 10px 10px;
+                &::placeholder{
+                    color: var(--bs-body-color)!important;
+                }
+                &:focus{
+                    box-shadow:none;
+                }
+            }
+            .connect-combo-input{
+                display: flex;
+                input{
+                    &:nth-child(1){
+                        border-radius: 10px 0px 0px 10px;
+                        border-right: solid 0px;
+                    }
+                    &:nth-child(2){
+                        border-radius: 0px 10px 10px 0px;
+                    }
+                }
+            }
+        }
+        a{
+            color: black;
+        }
+        }
         &::after{
             content: "";
-            height: 1500px;
+            height: 900px;
             width: 1500px;
             position: absolute;
             right: 0;
-            top: -50px;
+            bottom: -50px;
             background: white;
             z-index: 0;
+        }
+    }
+    .right{
+        .right-box{
+        color: white;
+        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+        .opacity-01{
+            opacity: .4;
+        }
+        .connect-form{
+            border-bottom: solid .5px #ffffff3b;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            input{
+                background: transparent;
+                border: solid 0px;
+                padding: 15px 0px;
+                width: 70%;
+                color: white;
+                &:focus{
+                    box-shadow:none;
+                }
+                &::placeholder{
+                    color: gray;
+                }
+            }
+                .btn{
+                    // position: absolute!important;
+                    width: 30%;
+
+                }
+        }
+
+        ul{
+            text-align: right;
+            right: 0;
+            li{
+                list-style: none;
+                float: left;
+                &.size{
+                    width: 40px;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
         }
     }
 }
