@@ -9,7 +9,7 @@ $('.slider-for').slick({
 $('.slider-nav').slick({
     asNavFor: '.slider-for',
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     centerMode: true,
     infinite: true,
     dots: true,
@@ -82,7 +82,9 @@ jQuery(function () {
       slidesToShow: 3,
       slidesToScroll: 1,
       speed: 400,
-      arrows: false,
+      arrows: true,
+      autoplay: true,
+      infinite: false,
       responsive: [
       {
           breakpoint: 992,

@@ -1,6 +1,7 @@
 .insight-featured{
     padding-bottom: 120px;
     .insight-slider{
+        padding-top: 150px;
         .insight-box{
             margin-right: 20px;
             position: relative;
@@ -96,3 +97,10 @@
   clip: rect(0,0,0,0);
   border: 0;
 }
+
+
+.slick-arrow{
+    position: absolute!important;
+    right: 0!important;
+    bottom: 0!important;
+  }
