@@ -1,0 +1,19 @@
+.connect-page .left {
+  position: relative;
+  color: black;
+}
+.connect-page .left .left-box {
+  z-index: 10;
+  position: relative;
+  margin-right: 50px;
+}
+.connect-page .left::after {
+  content: "";
+  height: 1500px;
+  width: 1500px;
+  position: absolute;
+  right: 0;
+  top: -50px;
+  background: white;
+  z-index: 0;
+}/*# sourceMappingURL=connect.css.map */
