@@ -101,6 +101,14 @@
 
 .slick-arrow{
     position: absolute!important;
-    right: 0!important;
-    bottom: 0!important;
+    right: 20px!important;
+    bottom: -10%!important;
+    left: auto!important;
+    top: auto!important;
+    &.slick-prev{
+        right: 80px!important;
+    }
+    &.slick-next::before,&.slick-prev::before{
+        font-size: 30px!important;
+    }
   }

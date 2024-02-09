@@ -84,7 +84,7 @@ jQuery(function () {
       speed: 400,
       arrows: true,
       autoplay: true,
-      infinite: false,
+      infinite: true,
       responsive: [
       {
           breakpoint: 992,
