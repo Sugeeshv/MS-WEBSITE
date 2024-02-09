@@ -1,5 +1,35 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    // connect
+    .connect-page {
+        .left{
+            margin-bottom: 50px;
+            padding: 20px;
+            &::after{
+                bottom: 0;
+            }
+            .left-box{
+                margin-right:0px;
+            }
+            .d-flex{
+                display: block!important;
+            }
+        }
+        .right{
+            .right-box{
+                padding: 20px;
+                padding-left:0px;
+                .connect-form{
+                    input{
+                        width: 60%;
+                    }
+                    .btn{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
     // common
     .header-toggle{
         margin-top: 10px;
@@ -104,6 +134,25 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+    // connect
+    .connect-page {
+        .left{
+            margin-bottom: 50px;
+            padding: 50px;
+            &::after{
+                bottom: 0;
+            }
+            .left-box{
+                margin-right:0px
+            }
+        }
+        .right{
+            padding: 50px;
+            .right-box{
+                padding-left:0px
+            }
+        }
+    }
     // podcast
     .events-wrapper{
         overflow: hidden;
@@ -121,6 +170,31 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    // COMMON
+    .mt-150px{
+        margin-top: 50px;
+    }
+    // connect
+    .connect-page {
+        .left{
+            margin-bottom: 50px;
+            padding: 50px;
+            &::after{
+                bottom: 0;
+            }
+            .left-box{
+                margin-right:0px
+            }
+        }
+        .right{
+            padding: 50px;
+            .right-box{
+                padding-left:0px
+            }
+        }
+    }
+
+
     .about {
         .about-image {
             img{
@@ -145,5 +219,24 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
+    // connect
+    .connect-page {
+        .left{
+            margin-bottom: 50px;
+            padding: 50px;
+            &::after{
+                bottom: 0;
+            }
+            .left-box{
+                margin-right:0px
+            }
+        }
+        .right{
+            padding: 50px;
+            .right-box{
+                padding-left:0px
+            }
+        }
+    }
     
 }

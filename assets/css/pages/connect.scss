@@ -1,5 +1,5 @@
 .connect-page{
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     .left{
         position: relative;
         color: black;
@@ -42,7 +42,7 @@
         }
         &::after{
             content: "";
-            height: 900px;
+            height: 1500px;
             width: 1500px;
             position: absolute;
             right: 0;
@@ -55,6 +55,7 @@
         .right-box{
         color: white;
         padding-left: 80px;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -102,4 +103,7 @@
         }
         }
     }
+}
+.navbar{
+    position: relative!important;
 }

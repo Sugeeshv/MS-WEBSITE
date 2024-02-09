@@ -1,5 +1,28 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .connect-page .left {
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+  .connect-page .left::after {
+    bottom: 0;
+  }
+  .connect-page .left .left-box {
+    margin-right: 0px;
+  }
+  .connect-page .left .d-flex {
+    display: block !important;
+  }
+  .connect-page .right .right-box {
+    padding: 20px;
+    padding-left: 0px;
+  }
+  .connect-page .right .right-box .connect-form input {
+    width: 60%;
+  }
+  .connect-page .right .right-box .connect-form .btn {
+    width: auto;
+  }
   .header-toggle {
     margin-top: 10px;
     margin-left: 0 !important;
@@ -88,6 +111,22 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .connect-page .left {
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+  .connect-page .left::after {
+    bottom: 0;
+  }
+  .connect-page .left .left-box {
+    margin-right: 0px;
+  }
+  .connect-page .right {
+    padding: 50px;
+  }
+  .connect-page .right .right-box {
+    padding-left: 0px;
+  }
   .events-wrapper {
     overflow: hidden;
   }
@@ -100,6 +139,25 @@
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .mt-150px {
+    margin-top: 50px;
+  }
+  .connect-page .left {
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+  .connect-page .left::after {
+    bottom: 0;
+  }
+  .connect-page .left .left-box {
+    margin-right: 0px;
+  }
+  .connect-page .right {
+    padding: 50px;
+  }
+  .connect-page .right .right-box {
+    padding-left: 0px;
+  }
   .about .about-image img {
     bottom: auto;
     top: 0;
@@ -117,4 +175,22 @@
     height: auto;
   }
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=responsive.css.map */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .connect-page .left {
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+  .connect-page .left::after {
+    bottom: 0;
+  }
+  .connect-page .left .left-box {
+    margin-right: 0px;
+  }
+  .connect-page .right {
+    padding: 50px;
+  }
+  .connect-page .right .right-box {
+    padding-left: 0px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

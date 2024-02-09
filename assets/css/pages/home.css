@@ -12,9 +12,8 @@
   position: relative;
 }
 .about .about-image img {
-  position: absolute;
   width: 140%;
-  left: -110px;
+  margin-left: -110px;
   bottom: -150px;
 }
 .about .about-image::after {
