@@ -5,8 +5,10 @@
 .about-page .about-floating-image {
   position: absolute;
   right: 10%;
-  top: 10%;
+  top: 0%;
   z-index: 0;
+  width: 30%;
+  opacity: 0.6 !important;
 }
 .about-page h3, .about-page h4, .about-page p {
   z-index: 10;
