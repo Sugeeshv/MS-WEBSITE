@@ -1,9 +1,29 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../../vendoor/nexa-font/NexaBold.woff2") format("woff2"), url("../../vendoor/nexa-font/NexaBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NexaRegular";
+  src: url("../../vendoor/nexa-font/NexaRegular.woff2") format("woff2"), url("../../vendoor/nexa-font/NexaRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 body, html {
   background: #000;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "NexaRegular" !important;
+  font-weight: normal;
+  font-style: normal;
   color: white;
   scroll-behavior: smooth;
   min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: "NexaRegular";
 }
 
 .container {
@@ -440,7 +460,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, white, rgba(255, 255, 255, 0.2));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -533,9 +552,8 @@ a {
 }
 
 .page-top {
-  position: absolute;
   z-index: 1000;
-  width: 98%;
+  width: 100%;
 }
 
 .header-toggle {

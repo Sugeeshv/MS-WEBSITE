@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('NexaBold.woff2') format('woff2'),
+        url('NexaBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexaRegular';
+    src: url('NexaRegular.woff2') format('woff2'),
+        url('NexaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
