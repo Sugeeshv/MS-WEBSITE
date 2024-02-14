@@ -14,16 +14,6 @@
 .insight-banner-display:hover {
   border: solid 2px #ffffff;
 }
-.insight-banner-display::after {
-  content: "";
-  height: 780px;
-  width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9024859944) 0%, rgba(0, 0, 0, 0.8856792717) 45%, rgba(0, 0, 0, 0.599964986) 100%);
-  top: 0;
-  left: 0;
-  position: absolute;
-}
 .insight-banner-display img {
   height: 100%;
   -o-object-fit: cover;
@@ -49,16 +39,6 @@
 }
 .gallery-images:hover {
   border: solid 2px #ffffff;
-}
-.gallery-images::after {
-  content: "";
-  height: 380px;
-  width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9024859944) 0%, rgba(0, 0, 0, 0.8856792717) 45%, rgba(0, 0, 0, 0.599964986) 100%);
-  top: 0;
-  left: 0;
-  position: absolute;
 }
 .gallery-images img {
   height: 365px;
